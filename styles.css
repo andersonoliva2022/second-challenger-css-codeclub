@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.login{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+    color: #000000;
+    margin-left: 16px;
+    margin-top: 128px;
+    display: block;
+}
+
+.your-email{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 343px;
+    height: 52px;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+input{
+    display: block;
+    height: 48px;
+    width: 343px;
+    margin-left: 16px;
+    background: #F2F2F7;
+    border-radius: 6px;
+    border: none;
+
+}
+input::placeholder{
+    height: 22px;
+    width: 68px;
+    padding-left: 14px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    color: #929292;
+}
+
+.email{ margin-top: 102px;}
+
+.password { margin-top: 12px;}
+
+.forgot-password{
+    color: #007AFF;
+    display: block;
+    text-decoration: none;
+    margin-top: 17px;
+    margin-left: 236px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4099999964237213px;
+
+}
+
+button{
+    width: 343px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.94);
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 20px 16px 0 16px;
+    border: none;
+}
+
+.last-line{
+    display: block;
+    margin-top: 204px;
+}
+
+.account{
+    color: rgba(0, 0, 0, 0.51);
+    margin-left: 75px;
+    height: 19px;
+    text-decoration: none;
+    display: inline;
+}
+
+.signup{
+    color: #007AFF;
+    height: 19px;
+    text-decoration: none;
+    display:inline
+}
